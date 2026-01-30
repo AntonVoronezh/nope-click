@@ -1,6 +1,6 @@
 {
   "name": "nope-click",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A click that actually means “I meant it.” Intent press engine + multi-framework wrappers.",
   "author": {
     "name": "AntonVoronezh",
@@ -55,7 +55,9 @@
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -105,28 +107,32 @@
     "@angular/core": ">=17.0.0"
   },
   "peerDependenciesMeta": {
-    "react": { "optional": true },
-    "vue": { "optional": true },
-    "svelte": { "optional": true },
-    "solid-js": { "optional": true },
-    "@angular/core": { "optional": true }
+    "react": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    },
+    "svelte": {
+      "optional": true
+    },
+    "solid-js": {
+      "optional": true
+    },
+    "@angular/core": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "typescript": "^5.5.4",
-
     "@types/node": "^22.0.0",
-
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
-
     "vue": "^3.5.0",
-
     "svelte": "^4.2.0",
-
     "solid-js": "^1.9.0",
-
     "@angular/core": "^17.3.0",
     "@angular/common": "^17.3.0",
     "rxjs": "^7.8.0"
