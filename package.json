@@ -7,6 +7,14 @@
     "email": "anton.voronezh.1990@gmail.com",
     "url": "https://github.com/AntonVoronezh"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonVoronezh/nope-click.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntonVoronezh/nope-click/issues"
+  },
+  "homepage": "https://github.com/AntonVoronezh/nope-click#readme",
   "funding": [
     {
       "type": "boosty",
