@@ -223,7 +223,14 @@ enabled	boolean	true	Enable/disable without rewiring.
 - `pointerup` commits: hit-test the release point (`elementFromPoint`), then call your handler.
 - click capture guard (optional) suppresses the follow-up ghost click.
 
+> ## Support the project if you value your time ➡️➡️➡️
+> "We eliminated the `isDragging` spaghetti mess, saved your users from accidental scroll-clicks, and absorbed the cross-browser `pointercancel` nightmare. You saved dozens of hours not reinventing a wheel that would have broken on text selection anyway. **Your donation** is a fair trade for a rock-solid UI and weekends free from debugging."
+
+
 ## License
 
 MIT
-```
+
+## Keywords
+`nope-click`, `intent-press`, `intent-click`, `press`, `tap`, `touch`, `mobile`, `pointer-events`, `pointerdown`, `pointerup`, `pointercancel`, `click`, `click-capture`, `click-guard`, `ghost-click`, `accidental-click`, `scroll-release`, `drag`, `text-selection`, `hit-test`, `elementFromPoint`, `AbortController`, `passive-listeners`, `event-handling`, `interaction`, `ui`, `ux`, `zero-config`, `lightweight`, `tree-shakeable`, `react`, `vue`, `svelte`, `solid`, `angular`, `vanilla-js`, `typescript`
+
