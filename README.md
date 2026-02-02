@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/nope-click.svg?style=flat-square)](https://www.npmjs.com/package/nope-click)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/nope-click?style=flat-square)](https://bundlephobia.com/package/nope-click)
 [![license](https://img.shields.io/npm/l/nope-click?style=flat-square)](https://github.com/your-org/nope-click/blob/main/LICENSE)
-
+[![Boosty](https://img.shields.io/badge/Support-Boosty-orange?style=flat-square&logo=boosty)](https://boosty.to/antonvoronezh/donate)
 > **Zero-config, lightweight drop-in “intent press” utility.**
 > Automatically fire “click-like” handlers only when the user *actually meant it* (not on scroll releases, drags, text selection, or ghost clicks).
 
@@ -197,15 +197,6 @@ useIntentPress(onIntent, { slop: 10, clickGuard: true })
 <div use:intentPress={{ onIntent, options: { slop: 10 } }}>
 ```
 
-Option	Type	Default	Description
-slop	number	auto	Movement allowed (px) before canceling as a drag.
-maxPressMs	number	0	Max press duration; 0 disables timeout.
-allowModified	boolean	false	Allow ctrl/alt/meta/shift modified presses.
-allowTextSelection	boolean	false	If false, cancels when selection becomes a range.
-allowNonPrimary	boolean	false	Allow non-primary mouse buttons.
-preventDefault	boolean	false	Call preventDefault() on pointerdown when safe.
-clickGuard	boolean	true	Suppress the trailing “ghost click” (capture phase).
-enabled	boolean	true	Enable/disable without rewiring.
 | Option | Type | Default | Description |
 |---|---|---|---|
 | `slop` | `number` | `auto` | Movement allowed (px) before canceling as a drag. |
@@ -223,9 +214,13 @@ enabled	boolean	true	Enable/disable without rewiring.
 - `pointerup` commits: hit-test the release point (`elementFromPoint`), then call your handler.
 - click capture guard (optional) suppresses the follow-up ghost click.
 
-> ## Support the project if you value your time ➡️➡️➡️
-> "We eliminated the `isDragging` spaghetti mess, saved your users from accidental scroll-clicks, and absorbed the cross-browser `pointercancel` nightmare. You saved dozens of hours not reinventing a wheel that would have broken on text selection anyway. **Your donation** is a fair trade for a rock-solid UI and weekends free from debugging."
+## Support the project ❤️
 
+> "We eliminated the `isDragging` spaghetti mess, saved your users from accidental scroll-clicks, and absorbed the cross-browser `pointercancel` nightmare. You saved dozens of hours not reinventing a wheel. **Your donation** is a fair trade for a rock-solid UI and weekends free from debugging."
+
+If this library saved you time, you can **[buy me a coffee ☕](https://boosty.to/antonvoronezh/donate)** (one-time) or **[become a sponsor 🚀](https://boosty.to/antonvoronezh)** (monthly).
+
+[![Boosty](https://img.shields.io/badge/Support_on-Boosty-orange?style=for-the-badge&logo=boosty)](https://boosty.to/antonvoronezh/donate)
 
 ## License
 

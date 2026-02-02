@@ -19,8 +19,18 @@
     {
       "type": "boosty",
       "url": "https://boosty.to/antonvoronezh/donate"
+    } ,
+    {
+      "type": "crypto",
+      "url": "https://t.me/AntonVoronezhh/5"
     }
   ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "postinstall": "node banner.js"
+  },
   "keywords": [
     "nope-click",
     "intent-press",
@@ -102,11 +112,6 @@
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
-  },
   "peerDependencies": {
     "react": ">=18.0.0",
     "vue": ">=3.3.0",
