@@ -29,7 +29,7 @@
     "build": "tsc -p tsconfig.build.json",
     "clean": "node -e \"require('node:fs').rmSync('dist',{recursive:true,force:true})\"",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "postinstall": "node banner.js"
+    "postinstall": "node banner.js || exit 0"
   },
   "keywords": [
     "nope-click",
