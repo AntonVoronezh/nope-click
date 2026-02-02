@@ -4,6 +4,7 @@
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/nope-click?style=flat-square)](https://bundlephobia.com/package/nope-click)
 [![license](https://img.shields.io/npm/l/nope-click?style=flat-square)](https://github.com/your-org/nope-click/blob/main/LICENSE)
 [![Boosty](https://img.shields.io/badge/Support-Boosty-orange?style=flat-square&logo=boosty)](https://boosty.to/antonvoronezh/donate)
+[![Crypto](https://img.shields.io/badge/Donate-Crypto-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/AntonVoronezhh/5)
 > **Zero-config, lightweight drop-in “intent press” utility.**
 > Automatically fire “click-like” handlers only when the user *actually meant it* (not on scroll releases, drags, text selection, or ghost clicks).
 
@@ -218,9 +219,19 @@ useIntentPress(onIntent, { slop: 10, clickGuard: true })
 
 > "We eliminated the `isDragging` spaghetti mess, saved your users from accidental scroll-clicks, and absorbed the cross-browser `pointercancel` nightmare. You saved dozens of hours not reinventing a wheel. **Your donation** is a fair trade for a rock-solid UI and weekends free from debugging."
 
-If this library saved you time, you can **[buy me a coffee ☕](https://boosty.to/antonvoronezh/donate)** (one-time) or **[become a sponsor 🚀](https://boosty.to/antonvoronezh)** (monthly).
+If this library saved you time, please consider supporting the development:
 
-[![Boosty](https://img.shields.io/badge/Support_on-Boosty-orange?style=for-the-badge&logo=boosty)](https://boosty.to/antonvoronezh/donate)
+1.  **Fiat (Cards/PayPal):** via **[Boosty](https://boosty.to/antonvoronezh/donate)** (one-time or monthly).
+2.  **Crypto (USDT/TON/BTC/ETH):** view wallet addresses on **[Telegram](https://t.me/AntonVoronezhh/5)**.
+
+<div style="display: flex; gap: 10px;">
+  <a href="https://boosty.to/antonvoronezh/donate">
+    <img src="https://img.shields.io/badge/Support_on-Boosty-orange?style=for-the-badge&logo=boosty" alt="Support on Boosty">
+  </a>
+  <a href="https://t.me/AntonVoronezhh/5">
+    <img src="https://img.shields.io/badge/Crypto_via-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Crypto via Telegram">
+  </a>
+</div>
 
 ## License
 
