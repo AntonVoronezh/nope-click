@@ -1,6 +1,6 @@
 {
   "name": "nope-click",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A click that actually means “I meant it.” Intent press engine + multi-framework wrappers.",
   "author": {
     "name": "AntonVoronezh",
@@ -19,7 +19,7 @@
     {
       "type": "boosty",
       "url": "https://boosty.to/antonvoronezh/donate"
-    } ,
+    },
     {
       "type": "crypto",
       "url": "https://t.me/AntonVoronezhh/5"
